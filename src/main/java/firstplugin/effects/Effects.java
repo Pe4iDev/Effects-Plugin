@@ -1,14 +1,14 @@
-package firstplugin.staminaeffects;
+package firstplugin.effects;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class StaminaEffects extends JavaPlugin {
+public final class Effects extends JavaPlugin {
 
     @Override
     public void onEnable() {
         saveDefaultConfig();
-    getCommand("evcl").setExecutor(new ClearCM());
-    getCommand("evef").setExecutor(new EffectCM());
+        getCommand("evcl").setExecutor(new ClearCM());
+        getCommand("evef").setExecutor((new EffectCM()));
     }
 
     @Override
@@ -16,3 +16,4 @@ public final class StaminaEffects extends JavaPlugin {
         // Plugin shutdown logic
     }
 }
+

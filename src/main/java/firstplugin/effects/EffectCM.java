@@ -1,8 +1,6 @@
-package firstplugin.staminaeffects;
+package firstplugin.effects;
 
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
-import org.bukkit.Color;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -20,9 +18,10 @@ public class EffectCM implements CommandExecutor{
             for (Player p : Bukkit.getOnlinePlayers()) {
                 p.getEntityId();
                 p.addPotionEffect(new PotionEffect(PotionEffectType.WATER_BREATHING, 99999, 10));
-                p.sendMessage(Utils.fixColors(StaminaEffects.getPlugin(StaminaEffects.class ).getConfig().getString("apply_effect")));
+                p.sendMessage(Utils.fixColors(Effects.getPlugin(Effects.class ).getConfig().getString("apply_effect")));
             }
         }
         return true;
     };}
+
 

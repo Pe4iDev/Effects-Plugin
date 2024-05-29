@@ -1,0 +1,13 @@
+name: Effects
+version: '${project.version}'
+main: firstplugin.effects.Effects
+api-version: '1.20'
+commands:
+  evef:
+    description: gives effect for the event pool
+    permission: evef.effects
+    permission-message: you dont have permission to do this
+  evcl:
+    description: clears the effect for the event pool
+    permission: evcl.effects
+    permission-message: you dont have permission to do this

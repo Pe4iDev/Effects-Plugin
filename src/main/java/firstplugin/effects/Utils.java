@@ -1,4 +1,4 @@
-package firstplugin.staminaeffects;
+package firstplugin.effects;
 
 import net.md_5.bungee.api.ChatColor;
 

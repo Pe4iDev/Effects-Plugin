@@ -1,0 +1,3 @@
+apply_effect: "&cStaminaMc&f>>> &b Give effects for the event pool"
+clear_effect: "&cStaminaMc&f>>> &b Cleared the effects for the event pool"
+aeffect_mes: "&6&l[PGUTILS] ⋙ &r&cGave applied effect to you!"
